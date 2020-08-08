@@ -13,6 +13,17 @@
 		3A1290D124DF192700007525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1290D024DF192700007525 /* Assets.xcassets */; };
 		3A1290D424DF192700007525 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1290D324DF192700007525 /* Preview Assets.xcassets */; };
 		3A1290D724DF192700007525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1290D524DF192700007525 /* LaunchScreen.storyboard */; };
+		3A1290E324DF29DE00007525 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290E224DF29DE00007525 /* OrderListView.swift */; };
+		3A1290E524DF2B2F00007525 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290E424DF2B2F00007525 /* MenuListView.swift */; };
+		3A1290E724DF2BFC00007525 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290E624DF2BFC00007525 /* ContentHeaderView.swift */; };
+		3A1290E924DF2D7800007525 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290E824DF2D7800007525 /* OrderRowView.swift */; };
+		3A1290EB24DF2DED00007525 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290EA24DF2DED00007525 /* MenuRowView.swift */; };
+		3A1290ED24DF2E5700007525 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290EC24DF2E5700007525 /* RatingsView.swift */; };
+		3A1290EF24DF2F3D00007525 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290EE24DF2F3D00007525 /* PageTitleView.swift */; };
+		3A1290F124DF316B00007525 /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290F024DF316B00007525 /* HistoryRowView.swift */; };
+		3A1290F524DF354C00007525 /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290F424DF354C00007525 /* HistoryListView.swift */; };
+		3A1290F724DF35AC00007525 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290F624DF35AC00007525 /* HistoryView.swift */; };
+		3A1290F924DF37EA00007525 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290F824DF37EA00007525 /* ListHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		3A1290D324DF192700007525 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A1290D624DF192700007525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A1290D824DF192700007525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1290E224DF29DE00007525 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		3A1290E424DF2B2F00007525 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		3A1290E624DF2BFC00007525 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
+		3A1290E824DF2D7800007525 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		3A1290EA24DF2DED00007525 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		3A1290EC24DF2E5700007525 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		3A1290EE24DF2F3D00007525 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		3A1290F024DF316B00007525 /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
+		3A1290F424DF354C00007525 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		3A1290F624DF35AC00007525 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		3A1290F824DF37EA00007525 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +78,20 @@
 		3A1290C924DF192400007525 /* HuliPizza */ = {
 			isa = PBXGroup;
 			children = (
+				3A1290CE24DF192400007525 /* ContentView.swift */,
+				3A1290E624DF2BFC00007525 /* ContentHeaderView.swift */,
+				3A1290EE24DF2F3D00007525 /* PageTitleView.swift */,
+				3A1290E124DF299300007525 /* OrderView */,
+				3A1290DE24DF297000007525 /* MenuView */,
+				3A1290E024DF298300007525 /* HistoryView */,
+				3A1290DF24DF297D00007525 /* Model */,
 				3A1290CA24DF192400007525 /* AppDelegate.swift */,
 				3A1290CC24DF192400007525 /* SceneDelegate.swift */,
-				3A1290CE24DF192400007525 /* ContentView.swift */,
 				3A1290D024DF192700007525 /* Assets.xcassets */,
 				3A1290D524DF192700007525 /* LaunchScreen.storyboard */,
 				3A1290D824DF192700007525 /* Info.plist */,
 				3A1290D224DF192700007525 /* Preview Content */,
+				3A1290F824DF37EA00007525 /* ListHeaderView.swift */,
 			);
 			path = HuliPizza;
 			sourceTree = "<group>";
@@ -73,6 +102,42 @@
 				3A1290D324DF192700007525 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A1290DE24DF297000007525 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				3A1290E424DF2B2F00007525 /* MenuListView.swift */,
+				3A1290EA24DF2DED00007525 /* MenuRowView.swift */,
+				3A1290EC24DF2E5700007525 /* RatingsView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		3A1290DF24DF297D00007525 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A1290E024DF298300007525 /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				3A1290F024DF316B00007525 /* HistoryRowView.swift */,
+				3A1290F424DF354C00007525 /* HistoryListView.swift */,
+				3A1290F624DF35AC00007525 /* HistoryView.swift */,
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		3A1290E124DF299300007525 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				3A1290E224DF29DE00007525 /* OrderListView.swift */,
+				3A1290E824DF2D7800007525 /* OrderRowView.swift */,
+			);
+			path = OrderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +212,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A1290CB24DF192400007525 /* AppDelegate.swift in Sources */,
+				3A1290E524DF2B2F00007525 /* MenuListView.swift in Sources */,
+				3A1290EF24DF2F3D00007525 /* PageTitleView.swift in Sources */,
+				3A1290E324DF29DE00007525 /* OrderListView.swift in Sources */,
+				3A1290F724DF35AC00007525 /* HistoryView.swift in Sources */,
+				3A1290E724DF2BFC00007525 /* ContentHeaderView.swift in Sources */,
+				3A1290ED24DF2E5700007525 /* RatingsView.swift in Sources */,
+				3A1290F924DF37EA00007525 /* ListHeaderView.swift in Sources */,
+				3A1290F124DF316B00007525 /* HistoryRowView.swift in Sources */,
+				3A1290EB24DF2DED00007525 /* MenuRowView.swift in Sources */,
 				3A1290CD24DF192400007525 /* SceneDelegate.swift in Sources */,
+				3A1290F524DF354C00007525 /* HistoryListView.swift in Sources */,
+				3A1290E924DF2D7800007525 /* OrderRowView.swift in Sources */,
 				3A1290CF24DF192400007525 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
