@@ -30,6 +30,7 @@
 		3A12910124DF830B00007525 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12910024DF830B00007525 /* HistoryModel.swift */; };
 		3A12910324DF889A00007525 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12910224DF889A00007525 /* MenuDetailView.swift */; };
 		3A12910524DF991000007525 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12910424DF991000007525 /* HistoryDetailView.swift */; };
+		3A88AFBC24E05BB300E93F89 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A88AFBB24E05BB300E93F89 /* RootTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		3A12910024DF830B00007525 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
 		3A12910224DF889A00007525 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
 		3A12910424DF991000007525 /* HistoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
+		3A88AFBB24E05BB300E93F89 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				3A1290CE24DF192400007525 /* ContentView.swift */,
+				3A88AFBB24E05BB300E93F89 /* RootTabView.swift */,
 				3A1290E624DF2BFC00007525 /* ContentHeaderView.swift */,
 				3A1290EE24DF2F3D00007525 /* PageTitleView.swift */,
 				3A1290F824DF37EA00007525 /* ListHeaderView.swift */,
@@ -236,6 +239,7 @@
 				3A12910124DF830B00007525 /* HistoryModel.swift in Sources */,
 				3A1290CB24DF192400007525 /* AppDelegate.swift in Sources */,
 				3A1290E524DF2B2F00007525 /* MenuListView.swift in Sources */,
+				3A88AFBC24E05BB300E93F89 /* RootTabView.swift in Sources */,
 				3A1290EF24DF2F3D00007525 /* PageTitleView.swift in Sources */,
 				3A1290E324DF29DE00007525 /* OrderListView.swift in Sources */,
 				3A1290F724DF35AC00007525 /* HistoryView.swift in Sources */,
