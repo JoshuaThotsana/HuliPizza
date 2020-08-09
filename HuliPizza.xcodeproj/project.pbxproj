@@ -32,6 +32,8 @@
 		3A12910524DF991000007525 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12910424DF991000007525 /* HistoryDetailView.swift */; };
 		3A88AFBC24E05BB300E93F89 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A88AFBB24E05BB300E93F89 /* RootTabView.swift */; };
 		3A88AFBE24E0605800E93F89 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A88AFBD24E0605800E93F89 /* ConfirmView.swift */; };
+		3A88AFC024E0766700E93F89 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A88AFBF24E0766700E93F89 /* MapViewController.swift */; };
+		3A88AFC224E076B600E93F89 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A88AFC124E076B600E93F89 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		3A12910424DF991000007525 /* HistoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
 		3A88AFBB24E05BB300E93F89 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		3A88AFBD24E0605800E93F89 /* ConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
+		3A88AFBF24E0766700E93F89 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3A88AFC124E076B600E93F89 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 		3A1290E024DF298300007525 /* HistoryView */ = {
 			isa = PBXGroup;
 			children = (
+				3A88AFBF24E0766700E93F89 /* MapViewController.swift */,
+				3A88AFC124E076B600E93F89 /* MapView.swift */,
 				3A1290F024DF316B00007525 /* HistoryRowView.swift */,
 				3A1290F424DF354C00007525 /* HistoryListView.swift */,
 				3A12910424DF991000007525 /* HistoryDetailView.swift */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A1290FF24DF830200007525 /* OrderModel.swift in Sources */,
+				3A88AFC224E076B600E93F89 /* MapView.swift in Sources */,
 				3A1290FE24DF830200007525 /* MenuModel.swift in Sources */,
 				3A12910524DF991000007525 /* HistoryDetailView.swift in Sources */,
 				3A12910324DF889A00007525 /* MenuDetailView.swift in Sources */,
@@ -244,6 +251,7 @@
 				3A1290E524DF2B2F00007525 /* MenuListView.swift in Sources */,
 				3A88AFBC24E05BB300E93F89 /* RootTabView.swift in Sources */,
 				3A1290EF24DF2F3D00007525 /* PageTitleView.swift in Sources */,
+				3A88AFC024E0766700E93F89 /* MapViewController.swift in Sources */,
 				3A1290E324DF29DE00007525 /* OrderListView.swift in Sources */,
 				3A1290F724DF35AC00007525 /* HistoryView.swift in Sources */,
 				3A1290E724DF2BFC00007525 /* ContentHeaderView.swift in Sources */,
