@@ -31,6 +31,7 @@
 		3A12910324DF889A00007525 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12910224DF889A00007525 /* MenuDetailView.swift */; };
 		3A12910524DF991000007525 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12910424DF991000007525 /* HistoryDetailView.swift */; };
 		3A88AFBC24E05BB300E93F89 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A88AFBB24E05BB300E93F89 /* RootTabView.swift */; };
+		3A88AFBE24E0605800E93F89 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A88AFBD24E0605800E93F89 /* ConfirmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		3A12910224DF889A00007525 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
 		3A12910424DF991000007525 /* HistoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
 		3A88AFBB24E05BB300E93F89 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		3A88AFBD24E0605800E93F89 /* ConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				3A1290EA24DF2DED00007525 /* MenuRowView.swift */,
 				3A12910224DF889A00007525 /* MenuDetailView.swift */,
 				3A1290EC24DF2E5700007525 /* RatingsView.swift */,
+				3A88AFBD24E0605800E93F89 /* ConfirmView.swift */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				3A1290EB24DF2DED00007525 /* MenuRowView.swift in Sources */,
 				3A1290CD24DF192400007525 /* SceneDelegate.swift in Sources */,
 				3A1290F524DF354C00007525 /* HistoryListView.swift in Sources */,
+				3A88AFBE24E0605800E93F89 /* ConfirmView.swift in Sources */,
 				3A1290E924DF2D7800007525 /* OrderRowView.swift in Sources */,
 				3A1290CF24DF192400007525 /* ContentView.swift in Sources */,
 			);

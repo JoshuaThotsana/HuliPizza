@@ -17,7 +17,7 @@ struct MenuDetailView: View {
         String(format:"%3.2f",menuItem.price)
     }
     func addItem(){
-		orderModel.add(menuID: menuItem.id)
+//		orderModel.add(menuID: menuItem.id)
 		didOrder = true
     }
     
@@ -68,8 +68,11 @@ struct MenuDetailView: View {
                         .foregroundColor(Color("IP"))
                         .cornerRadius(5)
                 }
-				.alert(isPresented: $didOrder) {
-					Alert(title: Text("Pizza Ordered"), message: Text("You ordered a " + self.menuItem.name))
+//				.alert(isPresented: $didOrder) {
+//					Alert(title: Text("Pizza Ordered"), message: Text("You ordered a " + self.menuItem.name))
+//				}
+					.sheet(isPresented: $didOrder) {
+						ConfirmView(menuID: self.menuItem.id, isPresented: self.$didOrder, orderModel: self.orderModel)
 				}
                 Spacer()
             }
