@@ -28,6 +28,7 @@
 		3A1290FE24DF830200007525 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290FC24DF830200007525 /* MenuModel.swift */; };
 		3A1290FF24DF830200007525 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1290FD24DF830200007525 /* OrderModel.swift */; };
 		3A12910124DF830B00007525 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12910024DF830B00007525 /* HistoryModel.swift */; };
+		3A12910324DF889A00007525 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12910224DF889A00007525 /* MenuDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		3A1290FC24DF830200007525 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		3A1290FD24DF830200007525 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		3A12910024DF830B00007525 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		3A12910224DF889A00007525 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				3A1290E424DF2B2F00007525 /* MenuListView.swift */,
 				3A1290EA24DF2DED00007525 /* MenuRowView.swift */,
+				3A12910224DF889A00007525 /* MenuDetailView.swift */,
 				3A1290EC24DF2E5700007525 /* RatingsView.swift */,
 			);
 			path = MenuView;
@@ -225,6 +228,7 @@
 			files = (
 				3A1290FF24DF830200007525 /* OrderModel.swift in Sources */,
 				3A1290FE24DF830200007525 /* MenuModel.swift in Sources */,
+				3A12910324DF889A00007525 /* MenuDetailView.swift in Sources */,
 				3A12910124DF830B00007525 /* HistoryModel.swift in Sources */,
 				3A1290CB24DF192400007525 /* AppDelegate.swift in Sources */,
 				3A1290E524DF2B2F00007525 /* MenuListView.swift in Sources */,
