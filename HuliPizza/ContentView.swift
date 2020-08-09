@@ -36,7 +36,9 @@ struct ContentView_Previews: PreviewProvider {
 		
 		Group {
 			ContentView(orderModel: OrderModel())
+				.environmentObject(UserPreferences())
 			ContentView(orderModel: OrderModel())
+				.environmentObject(UserPreferences())
 				.colorScheme(.dark)
 				.background(Color.black)
 			.previewDevice("iPad Pro (9.7-inch)")
