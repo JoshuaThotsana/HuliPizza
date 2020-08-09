@@ -55,7 +55,7 @@ struct OrderItem:Identifiable{
 }
 
 /// The Model for holding an order
-class OrderModel{
+class OrderModel {
     let menu = MenuModel()
     var orders:[OrderItem] = []
     var lastID:Int = -1
